@@ -59,3 +59,14 @@ body {
   background-color: #e15f41;
   color: white;
 }
+
+@media (max-width: 767px){
+  .navbar-brand {
+    font-size: 30px;
+  }
+  
+
+  .carousel-item img {
+    height: 280px;
+  }
+}

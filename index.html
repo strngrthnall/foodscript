@@ -53,7 +53,7 @@
     </div>
   </header>
 
-  <div data-bs-spy="scroll" data-bs-target="cabecalho"> 
+  <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true"> 
     <section id="sobre-o-restaurante">
       <div class="carousel slide" data-bs-ride="carousel" id="carousel">
         <div class="carousel-inner">
@@ -86,7 +86,7 @@
             <div class="col-md-5">
               <img class="d-block w-100 rounded" src="./images/restaurante.jpg" alt="Foto do espaço interno do restaurante">
             </div>
-            <div class="col-md-7">
+            <div class="col-md-7 mt-3 mt-md-0">
               <h2 class="section-title">Sobre <span class="text-colored">o restaurante</span></h2>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque nostrum dolores error sequi dolore explicabo voluptatem pariatur? Fugit id labore deleniti incidunt, cum eum illum eos est, eaque earum doloribus!
@@ -116,7 +116,7 @@
 
         <div class="row mt-4">
 
-          <div class="col-4">
+          <div class="col-md-4">
             <img src="./images/eventos/aniversario.jpg" alt="Bolo de aniversário com velas" class="d-block w-100 rounded mb-2">
             <h3 class="section-title text-colored fs-4">
               <i class="bi bi-calendar-heart-fill"></i>
@@ -127,7 +127,7 @@
             </p>
           </div>
 
-          <div class="col-4">
+          <div class="col-md-4">
             <img src="./images/eventos/casamento.jpg" alt="Mesas com decorações de casamento" class="d-block w-100 rounded mb-2">
             <h3 class="section-title text-colored fs-4">
               <i class="bi bi-arrow-through-heart-fill"></i>
@@ -138,7 +138,7 @@
             </p>
           </div>
 
-          <div class="col-4">
+          <div class="col-md-4">
             <img src="./images/eventos/confraternizacoes.jpg" alt="Pessoas brindando com taças de vinho" class="d-block w-100 rounded mb-2">
             <h3 class="section-title text-colored fs-4">
               <i class="bi bi-people-fill"></i>
@@ -164,16 +164,16 @@
         <div class="row">
           <aside class="col-md-2">
             <nav class="nav nav-pills flex-column nav-cardapio">
-              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class=" fw-bold text-start nav-link text-colored active">Bebidas Não alcolicas</button>
-              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class=" fw-bold text-start nav-link text-colored">Bebidas alcolicas</button>
-              <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class=" fw-bold text-start nav-link text-colored">Entradas</button>
-              <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class=" fw-bold text-start nav-link text-colored">Pratos principais</button>
-              <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class=" fw-bold text-start nav-link text-colored">Sobremesas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class=" fw-bold text-start nav-link text-colored active pe-md-1">Bebidas Não alcolicas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class=" fw-bold text-start nav-link text-colored pe-md-1">Bebidas alcolicas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class=" fw-bold text-start nav-link text-colored pe-md-1">Entradas</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class=" fw-bold text-start nav-link text-colored pe-md-1">Pratos principais</button>
+              <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class=" fw-bold text-start nav-link text-colored pe-md-1">Sobremesas</button>
             </nav>
           </aside>
 
           <div class="col-md-10">
-            <div class="tab-content">
+            <div class="tab-content"> 
 
               <div class="tab-pane active" id="bebidas-sem-alcool">
                 <div class="row">
@@ -359,7 +359,7 @@
           <h2 class="section-title text-center pb-4">Fale <span class="text-colored">conosco</span></h2>
         </div>
         <div class="row">
-          <div class="col-md-7">
+          <div class="col-md-7 mb-5">
             <form>
               <div class="mb-3">
                 <label for="nome" class="form-label fw-bold text-colored">Nome:</label>

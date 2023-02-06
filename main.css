@@ -46,3 +46,16 @@ body {
   text-decoration: underline;
 }
 
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+#fale-conosco button {
+  background-color: #e15f41;
+  color: white;
+}
